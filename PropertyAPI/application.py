@@ -44,7 +44,7 @@ def get_data(id):
     for item in res:
         return dict(item)
 
-#Sort by specfied parameters
+#Sort by specified parameters
 @app.route('/sorted/<column>/<sort>')
 def get_sorted(column, sort):
     session = loadSession()
