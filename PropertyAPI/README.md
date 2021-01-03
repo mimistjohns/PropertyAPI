@@ -19,6 +19,7 @@ retrieved can be found by adding "/address/address of property" to URL. Note: Re
 with "%23." 
 
 Example Queries: 
+
 `http://127.0.0.1:5000/address/601%20Van%20Ness%20Ave%20%23832`
 
 `http://127.0.0.1:5000/address/738-740%20North%20Point%20St`
