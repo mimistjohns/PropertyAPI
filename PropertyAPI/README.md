@@ -16,6 +16,7 @@ and sorts by days on the market, price, and beds.
 beds, and baths. It also can sort by the minimum or maximum of a field. 
 When more than one property is listed property information is limited. All information about a specfic property 
 retrieved can be found by adding "/address/address of property" to URL.
+
 Example Queries: 
 
 `http://127.0.0.1:5000/address/738-740%20North%20Point%20St`
