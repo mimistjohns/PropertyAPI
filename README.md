@@ -8,7 +8,7 @@ and sorts by days on the market, price, and beds.
 - sqlalchemy
 
 ## Instructions 
-1. Run application.py to run local host. 
+1. Download PropertyAPI folder, and run application.py to run local host. 
 
 2. Enter local URL in browser. The home endpoint is all properties in ascending order of "Days on Market." 
 
