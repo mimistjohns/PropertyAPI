@@ -65,7 +65,7 @@ def get_sorted(column, sort):
         col = key.split('_')[0].upper()
         where += f'{col} {mode} {val} '
 
-    cmd_str = f'select * from redfinData'# order by {column} {sort_}'
+    cmd_str = f'select * from redfinData'
 
     cmd_str += f'{where} order by {column} {sort_}'
     cmd = text(cmd_str)
