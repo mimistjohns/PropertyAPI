@@ -15,9 +15,11 @@ and sorts by days on the market, price, and beds.
 3. Enter query; this program sorts by ascending and descending price,
 beds, and baths. It also can sort by the minimum or maximum of a field. 
 When more than one property is listed property information is limited. All information about a specfic property 
-retrieved can be found by adding "/address/address of property" to URL.
+retrieved can be found by adding "/address/address of property" to URL. Note: Replace all "#" in address field
+with "%23." 
 
 Example Queries: 
+`http://127.0.0.1:5000/address/601%20Van%20Ness%20Ave%20%23832`
 
 `http://127.0.0.1:5000/address/738-740%20North%20Point%20St`
 
