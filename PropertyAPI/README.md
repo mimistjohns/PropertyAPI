@@ -1,13 +1,13 @@
-#Property API
+# Property API
 This program takes data on properties for sale in San Francisco, 
 and sorts by days on the market, price, and beds. 
-##Dependencies
+## Dependencies
 - pandas
 - flask
 - sqlite3
 - sqlalchemy
 
-##Instructions 
+## Instructions 
 1. Run application.py to run local host. 
 
 2. Enter local URL in browser. The home endpoint is all properties in ascending order of "Days on Market." 
@@ -20,7 +20,7 @@ Example Queries:
 
 `http://127.0.0.1:5000/address/1156-1158%20Church%20St`
 
-`http://127.0.0.1:5000/sorted/Price/asc`
+`http://127.0.0.1:5000/sorted/PRICE/asc`
 
 `http://127.0.0.1:5000/sorted/BEDS/desc`
 
