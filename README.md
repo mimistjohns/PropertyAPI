@@ -13,7 +13,7 @@ and sorts by days on the market, price, and beds.
 2. Enter local URL in browser. The home endpoint is all properties in ascending order of "Days on Market." 
 
 3. Enter query; this program sorts by ascending and descending price,
-beds, and days on market.. It also can sort by the minimum or maximum of a field. 
+beds, and days on market. It also can sort by the minimum or maximum of a field. 
 When more than one property is listed property information is limited. All information about a specfic property 
 retrieved can be found by adding "/address/address of property" to URL. Note: Replace all "#" in address fields
 with "%23". 
